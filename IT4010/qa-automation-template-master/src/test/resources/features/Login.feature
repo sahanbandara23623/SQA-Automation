@@ -19,3 +19,4 @@ Feature: Add New Admin to System
       And I click on "Login_Submit"
       And I wait few seconds
       And I wait few seconds
+      And I wait few seconds
