@@ -136,13 +136,5 @@ public class WebSteps {
         By element = constructElement(findElementRepo(UserName));
         driver.findElement(element).sendKeys(String.valueOf(randomUserName));
     }
-
-    @And("I hard click {string}")
-    public void i_hard_click(String locator) {
-        By elementLocator = constructElement(findElementRepo(locator));
-        WebElement element = driver.findElement(elementLocator);
-        Actions actions = new Actions(driver);
-        actions.moveToElement(element).click().perform();
-    }
 }
 
