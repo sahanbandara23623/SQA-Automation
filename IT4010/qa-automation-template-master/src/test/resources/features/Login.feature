@@ -20,3 +20,4 @@ Feature: Login Function
       And I wait few seconds
       And I wait few seconds
       And I wait few seconds
+      And I wait few seconds
