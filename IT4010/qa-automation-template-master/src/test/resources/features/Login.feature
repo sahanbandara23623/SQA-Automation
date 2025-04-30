@@ -1,4 +1,4 @@
-Feature: Add New Admin to System
+Feature: Login Function
 
   Background:
     Given I have opened the system
